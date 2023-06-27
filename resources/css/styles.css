@@ -1,0 +1,132 @@
+html {
+    font-family: 'Ysabeau Infant';
+    font-size: 16px;
+    color: white;
+}
+
+p {
+    font-size: 1.125rem;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    border-bottom: 1px solid white;
+    margin-top: 0;
+    margin-bottom: 0;
+    flex: wrap;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: inherit;
+}
+
+.restaurant-name {
+    font-size: 1.25rem;
+}
+
+.navbar {
+    justify-content: space-between;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 3rem;
+}
+
+nav ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+header h1 {
+    font-weight: normal;
+}
+
+header h1:hover {
+    font-weight: bold;
+}
+
+header nav li:hover {
+    font-weight: bold;
+}
+
+header img {
+    width: 150px;
+    height: 100%;
+}
+
+.name-container, .navbar {
+    flex: 1;
+    text-align: center;
+}
+
+.logo-container {
+    flex: 1;
+}
+
+#about, #gallery, #team {
+    display: flex;
+    justify-content: center;
+}
+
+body main {
+    padding-top: 9.375rem;
+}
+
+main .content {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 63.75rem;
+}
+
+#about .beijing-food-street-image-container {
+    width: 100%;
+    height: auto;
+}
+
+#about .beijing-food-street-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* #gallery .gallery-image-container {
+    width: 100%;
+    max-width: 17.03125rem;
+}
+
+#gallery .gallery-image {
+    width: 100%;
+    height: auto;
+}
+
+#gallery .gallery-image-containers {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+@media (max-width: 768px) {
+    #gallery .gallery-image-containers {
+        flex-direction: column;
+        flex-grow: 1;
+    }
+} */
